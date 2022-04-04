@@ -10,10 +10,8 @@ function App() {
   return (
       <Router>
         <div className="App">
-              <Header/>
-              <Routes>
-                <Route path="/" exact element={<Home/>} />
-              </Routes>
+              <Header />
+              <Home />
         </div>
       </Router>
   );

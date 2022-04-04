@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Header from './components/header/Header';
 import 'bootstrap/dist/css/bootstrap.css'
 // import Routes from './config/Routes';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
